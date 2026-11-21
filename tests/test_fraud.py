@@ -1,3 +1,5 @@
+import pytest
+pytest.importorskip("torch")
 """Unit tests for transaction generator, Autoencoder, and cost metrics."""
 import torch
 from src.data.transaction_generator import generate_transactions
